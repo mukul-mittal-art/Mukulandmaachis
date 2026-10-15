@@ -1,9 +1,14 @@
 /* Base background */
-body {background-color: rgb(22, 69, 155);
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body .home, html{background-color: rgb(98, 12, 12);
       margin: 0%;
-      font-family: monospace;
       width: 100%;
-      overflow-x: hidden;
+      overflow: hidden;
     }
 
 .bg-image {
@@ -13,38 +18,75 @@ body {background-color: rgb(22, 69, 155);
     width: 100%;
     height: 100%;
     background-image: url(visuals/back.jpeg);
-    opacity: 0.8;
-    z-index: -1
+    opacity: 0.7;
+    z-index: -1;
+    background-size: cover;
 }
 
 /* header navigation bar */
 .navi {
     background: #d7c4b7;
-    padding: 15px;
+    padding: 17px;
     text-align: center;
-    border-bottom: 2px dashed #b8a394;
+    border-bottom: 2px solid rgb(98, 12, 12);
+    border-top: 2px solid rgb(98, 12, 12);
     opacity: 0.8;
 }
 .navi a {
-    margin: 0 15px;
+    margin: 0 60px;
     text-decoration: none;
     color: #4a3b32;
-    font-size: 20px;
+    font-size: 25px;
 }
 
-/* my picture */
+/* my picture and main text*/
 .my-picture {
     position: absolute;
-    top: 70%;
-    left: 50%;
+    bottom: 50%;
+    left: 48%;
     transform: translate(-50%, -50%);
     width: 700px;   
     padding: 10px 10px 25px 10px; 
     box-shadow: 3px 6px 15px rgba(0,0,0,0.2);
 }
 
-.my-picture img{
+.pic{
     width:100%;
     height:auto;
     display:block;
+    z-index: 1;
+    display: block;
+    position: absolute;
+}
+
+.back-text {
+    position: absolute;
+    font-size: 250px;
+    font-weight: 900;
+    color:#952929;
+    z-index: 0;
+    pointer-events: none;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+
+}
+
+/* left content */
+
+.left-content {
+    position: absolute;
+    bottom: 11%;
+    left: 7%;
+    font-size:x-large;
+    color: #d7c4b7;
+}
+.right-content {
+    position: absolute;
+    bottom: 11%;
+    right: 7%;
+    font-size:x-large;
+    color: #d7c4b7;
+    width: 280px;
 }
