@@ -25,11 +25,11 @@ body .home, html{background-color: rgb(98, 12, 12);
 
 /* header navigation bar */
 .navi {
-    background: #d7c4b7;
+    background: #a9bcc3;
     padding: 17px;
     text-align: center;
-    border-bottom: 2px solid rgb(98, 12, 12);
-    border-top: 2px solid rgb(98, 12, 12);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-top: 2px solid rgb(255, 255, 255);
     opacity: 0.8;
 }
 .navi a {
@@ -43,11 +43,22 @@ body .home, html{background-color: rgb(98, 12, 12);
 .my-picture {
     position: absolute;
     bottom: 50%;
-    left: 48%;
+    left: 50%;
     transform: translate(-50%, -50%);
     width: 700px;   
     padding: 10px 10px 25px 10px; 
     box-shadow: 3px 6px 15px rgba(0,0,0,0.2);
+}
+
+.sketch {
+    width: 100%;
+     height:auto;
+    display:block;
+    z-index: -1;
+    display: block;
+    position: absolute;
+    opacity: 0.9;
+    bottom: 50%;
 }
 
 .pic{
@@ -63,7 +74,10 @@ body .home, html{background-color: rgb(98, 12, 12);
     position: absolute;
     font-size: 250px;
     font-weight: 900;
-    color:#952929;
+    color:#184256;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    word-spacing: 5%;
+    letter-spacing: 5%;
     z-index: 0;
     pointer-events: none;
     top: 45%;
@@ -77,16 +91,18 @@ body .home, html{background-color: rgb(98, 12, 12);
 
 .left-content {
     position: absolute;
-    bottom: 11%;
+    bottom: 9%;
     left: 7%;
     font-size:x-large;
-    color: #d7c4b7;
+    color: #a1c4dd;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .right-content {
     position: absolute;
     bottom: 11%;
     right: 7%;
     font-size:x-large;
-    color: #d7c4b7;
+    color: #a1c4dd;
     width: 280px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
