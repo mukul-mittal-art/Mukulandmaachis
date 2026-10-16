@@ -33,6 +33,7 @@
     border-top: 2px solid rgb(255, 255, 255);
     opacity: 0.8;
 }
+
 .navi a {
     margin: 0 60px;
     text-decoration: none;
@@ -129,16 +130,20 @@
 .po {
     text-align: center;
     padding: 12px 12px 20px 12px;
-    box-shadow: 3px 6px 15px rgba(0, 0, 0, 0.15);
+    box-shadow: 3px 6px 15px rgba(245, 242, 242, 0.15);
     background: white;
     margin: 0;
     width: fit-content;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.po:hover {
+    transform: translateY(-12px);
+    box-shadow: 6px 12px 25px rgba(80, 16, 209, 0.567);
+}
 .pop {
     margin: 0;
     color: #184256;
-    font-size: 13px;
+    font-size: 20px;
     font-style: italic;
 }
 .po-img {
