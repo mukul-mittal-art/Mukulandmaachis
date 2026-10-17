@@ -41,10 +41,10 @@ On what? CSS
 Since this is my firstever project, I encountered several errors and problems, so I used AI to help me with some code and progress.
 
 # Screenshots
-![My Home page](screenshots/Home%20page.pngHome page.png)
+![My Home page](screenshots/Home%20page.png)
 ![My poetries page](screenshots/Poetries%20page.png)
 ![My designs page](screenshots/Designs%20page.png)
-![My artworks page](screenshots/Artworks%20page.pngArtworks page.png)
+![My artworks page](screenshots/Artworks%20page.png)
 
 # How to run the project locally
 Clone and run this repository:
