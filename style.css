@@ -1,4 +1,4 @@
-/* Base background */
+/* base for all pages*/
 * {
     margin:0;
     padding: 0;
@@ -24,20 +24,20 @@
     background-size: cover;
 }
 
-/* header navigation bar */
+/* navigation bar for convenience */
 .navi {
-    background: #2e6a81;
+    background: #fdfdfd;
     padding: 17px;
     text-align: center;
-    border-bottom: 2px solid rgb(255, 255, 255);
-    border-top: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(28, 2, 2);
+    border-top: 2px solid rgb(30, 2, 2);
     opacity: 0.8;
 }
 
 .navi a {
     margin: 0 60px;
     text-decoration: none;
-    color: #e4ebf6;
+    color: #000206;
     font-size: 25px;
 }
 
@@ -89,7 +89,7 @@
 
 }
 
-/* content */
+/* main content for my home page */
 
 .left-content {
     position: absolute;
@@ -117,7 +117,7 @@
     overflow-x: hidden;
 }
 
-/* Poetry grid */
+/* my poems in a grid */
 .poetry-grid {
     display: grid;
     padding: 0 20px 60px 20px;
@@ -143,9 +143,114 @@
 .pop {
     margin: 0;
     color: #184256;
-    font-size: 20px;
+    font-size: 23px;
     font-style: italic;
 }
 .po-img {
     width: 500px;
+}
+
+/* artworks html */
+.artwork {
+    background-color: #16264f;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: auto;
+}
+
+/* my insta post and my insta text */
+
+.myveryowninstapost {
+    margin-top: 24px;
+    max-width: 380px;
+    width: 100%;
+    float: left;
+}
+.instagram-media {
+    min-width: unset !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0% !important;
+    margin-top: 75px !important;
+}
+
+/* MY ARTWORKSSS */
+.art-stuff {
+    position: absolute;
+    height: 800px;
+    margin-left: 400px;
+}
+
+
+.candles {
+    width: 350px;
+    height:max-content;
+    top: 5px;
+    left: 500px;
+    z-index: 1;
+    
+}
+
+.fallen-angel {
+    width: 250px;
+    height:max-content;
+    top: 500px;
+    left: 2px;
+    z-index: 1;
+}
+.flowers {
+    width: 270px;
+    height:max-content;
+    top: 50px;
+    left: 2px;
+    z-index: 1;
+}
+.grandma {
+    width: 250px;
+    height:max-content;
+    top: 500px;
+    left: 200px;
+    z-index: 1;
+}
+.kaido {
+    width: 250px;
+    height:max-content;
+    top: 500px;
+    left: 200px;
+    z-index: 1;
+}
+.luffy {
+    width: 250px;
+    height:max-content;
+    top: 500px;
+    left: 200px;
+    z-index: 1;
+}
+.gorl {
+    width: 250px;
+    height:max-content;
+    top: 500px;
+    left: 200px;
+    z-index: 1;
+}
+.sadgorl {
+    width: 250px;
+    height:max-content;
+    top: 500px;
+    left: 200px;
+    z-index: 1;
+}
+.paperweights {
+    width: 250px;
+    height:max-content;
+    top: 500px;
+    left: 200px;
+    z-index: 1;
+}
+.sketchh {
+    width: 250px;
+    height:max-content;
+    top: 500px;
+    left: 200px;
+    z-index: 1;
 }
