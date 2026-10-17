@@ -6,6 +6,13 @@ I have coded this personal website to showcase the different mediums of art i in
 * My designs (`designs.html`): It features a selection of my designs that I've loved (and my instagram posts)
 * My poetries (`poetries.html`): It features 4 of my best poems that are just noice.
 
+# My demo link
+[t https://mukul-mittal-art.github.io/Mukulandmaachis/](t https://mukul-mittal-art.github.io/Mukulandmaachis/)
+
+# Tech stack
+Program used: Visual Studio Code
+Languages used: CSS and HTML
+
 # What does it do?
 makes me happy. (jk)
 It's a project i've been wanting to do for a very long time, this website serves as the base for my own website where i will feature all my artworks, and in later months, it will serve as my portfolio website.
@@ -38,3 +45,8 @@ Since this is my firstever project, I encountered several errors and problems, s
 ![My poetries page](screenshots/Poetries%20page.png)
 ![My designs page](screenshots/Designs%20page.png)
 ![My artworks page](screenshots/Artworks%20page.pngArtworks page.png)
+
+# How to run the project locally
+Clone and run this repository:
+```bash
+git clone [https://github.com/mukul-mittal-art/Mukulandmaachis.git](https://github.com/mukul-mittal-art/Mukulandmaachis.git)
