@@ -7,7 +7,8 @@ I have coded this personal website to showcase the different mediums of art i in
 * My poetries (`poetries.html`): It features 4 of my best poems that are just noice.
 
 # My demo link
-[t https://mukul-mittal-art.github.io/Mukulandmaachis/](t https://mukul-mittal-art.github.io/Mukulandmaachis/)
+[https://mukul-mittal-art.github.io/Mukulandmaachis/](https://mukul-mittal-art.github.io/Mukulandmaachis/)
+hh
 
 # Tech stack
 Program used: Visual Studio Code
