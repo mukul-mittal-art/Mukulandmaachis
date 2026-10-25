@@ -8,7 +8,7 @@ I have coded this personal website to showcase the different mediums of art i in
 
 # My demo link
 [https://mukul-mittal-art.github.io/Mukulandmaachis/](https://mukul-mittal-art.github.io/Mukulandmaachis/)
-hh
+
 
 # Tech stack
 Program used: Visual Studio Code
@@ -42,12 +42,12 @@ On what? CSS
 Since this is my firstever project, I encountered several errors and problems, so I used AI to help me with some code and progress.
 
 # Screenshots
-![My Home page](screenshots/Home%20page.png)
-![My poetries page](screenshots/Poetries%20page.png)
-![My designs page](screenshots/Designs%20page.png)
-![My artworks page](screenshots/Artworks%20page.png)
+![My Home page](Screenshots/home.png)
+![My poetries page](Screenshots/poetries.png)
+![My designs page](Screenshots/designs.png)
+![My artworks page](Screenshots/artworks.png)
 
 # How to run the project locally
 Clone and run this repository:
 ```bash
-git clone [https://github.com/mukul-mittal-art/Mukulandmaachis.git](https://github.com/mukul-mittal-art/Mukulandmaachis.git)
+git clone https://github.com/mukul-mittal-art/Mukulandmaachis.git
